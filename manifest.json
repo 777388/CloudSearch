@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "name": "cloudsearch",
+    "version": "1.0",
+    "permissions": ["contextMenus"],
+    "background": {
+        "service_worker": "command.js"
+    }
+}
